@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "good-console": "^4.1.0",
-    "good": "^5.1.2",
-    "hapi": "^8.4.0"
+    "good-console": "~4.1.0",
+    "good": "~5.1.2",
+    "hapi": "~8.4.0"
   },
-  "devDependencies": {},
+  "engines": {
+    "node": "~0.12.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
